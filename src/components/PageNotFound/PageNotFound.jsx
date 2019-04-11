@@ -1,7 +1,7 @@
 import React from "react";
 import {withRouter} from "react-router-dom";
 
-function Home() {
+function PageNotFound() {
   return (
     <>
       <h2>Oups :'(</h2>
@@ -11,4 +11,4 @@ function Home() {
   )
 }
 
-export default withRouter(Home);
+export default withRouter(PageNotFound);

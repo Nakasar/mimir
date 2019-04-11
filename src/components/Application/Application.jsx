@@ -9,6 +9,13 @@ function Application() {
     <Router>
       <Switch>
         <Route path="/" exact component={Home} />
+
+        <Route path="/jeux" component={PageNotFound} />
+
+        <Route path="/joueurs" component={PageNotFound} />
+
+        <Route path="/sessions" component={PageNotFound} />
+
         <Route component={PageNotFound} />
       </Switch>
     </Router>
