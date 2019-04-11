@@ -3,10 +3,13 @@ import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
 
 import Home from "../Home/Home";
 import PageNotFound from "../PageNotFound/PageNotFound";
+import Navigation from "../Navigation/Navigation";
 
 function Application() {
   return (
     <Router>
+      <Navigation />
+
       <Switch>
         <Route path="/" exact component={Home} />
 
